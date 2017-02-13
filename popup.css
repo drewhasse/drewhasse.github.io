@@ -83,9 +83,9 @@ img {border:0px}
 #popUpDiv2 {
 	position:fixed;
 	background: white;
-	width: 40%;
+	width: 50em;
 	height:30em;
-	left: 40%;
+	left: 35%;
 	margin-bottom: 25%;
 	border:1px solid #000;
 	z-index: 9003;
