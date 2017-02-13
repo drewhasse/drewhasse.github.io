@@ -1,0 +1,75 @@
+#mainDiv {
+	width: 100%;
+	height: 100%;
+	position:fixed;
+}
+#leftSection {
+	height: 100%;
+	width: 50%;
+	background-color: #584747;
+	float: left;
+}
+#rightSection{
+	background-color: white;
+	height: 100%;
+	width: 50%;
+	float: right;
+}
+#piechart{
+	width: 100%;
+	height: 70%;
+	padding: 0;
+	float: left;
+}
+#pieChartButtons{
+	width:100%;
+	height:30%;
+}
+#demo{
+	margin-left: 2%;
+	height: 50%;
+	width: 45%;
+	border-radius: 5px;
+	cursor: not-allowed;
+	background-color: #4CAF50;
+	font-size: 26px;
+	text-align: center;
+}
+#reset{
+	height: 50%;
+	width: 25%;
+	border-radius: 5px;
+	margin-left: 5%;
+	text-align: center;
+	font-size: 26px;
+	background-color: #4CAF50;
+}
+#middleRight {
+	height: 25%;
+	width: 100%;
+}
+
+#topRight {
+	height: 70%;
+	width: 100%;
+}
+#table1{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+#AdvancedMetricsbtn{
+	background-color: #4CAF50;
+}
+
+
+
+.demo:hover{
+	background-color: white;
+}
+
+.reset:hover{
+	background-color: black;
+}

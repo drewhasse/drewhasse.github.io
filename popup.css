@@ -1,0 +1,146 @@
+/*WebDesignAndSuch.com*/
+
+
+@charset "UTF-8";
+body {
+	font-family: Arial, serif;
+	background:#190121;
+	margin: 0; 
+	padding: 0;
+	text-align: center; 
+	color: #000000;
+}
+ #container {
+	width: 780px;  
+	background: #FFFFFF;
+	margin: 0 auto; 
+	font-size:14px;
+	
+	text-align: left; 
+}
+#mainContent {
+	padding: 0 60px;
+	min-height:600px;
+	line-height:25px
+}
+
+#backImg {
+	width:40px;
+	height:40px;
+}
+
+img {border:0px}
+
+
+
+
+/*LINKS*/
+
+#rightSection a:link, #rightSection a:visited {color:#fff; text-decoration:none; font-size:18px; background:clear; padding:5px; -webkit-border-radius:10%;
+-moz-border-radius:10%; color: midnightblue;}
+#mainContent a:hover, #mainContent a:active {color:#fff; text-decoration:none; font-size:18px; background:#333333; padding:5px; -webkit-border-radius:10px;
+-moz-border-radius:10px}
+
+
+#backBtn {
+	width: 10px;
+	margin-left: 10px;
+	margin-top: 12px;
+}
+
+#AdvancedMetricsbtn {
+	width: 12em;
+	
+}
+
+#leftAdvanced {
+	width:50%;
+	height: 25.5em;
+	border-right: 1px solid black;
+	/* height: 408px;*/
+}
+
+/*STYLES FOR CSS POPUP*/
+
+
+#blanket {
+   background-color: black;
+   opacity: 0.65;
+   *background:none;
+   position:absolute;
+   z-index: 9001;
+   top:0px;
+   left:0px;
+   width:100%;
+}
+
+#popUpDiv {
+	position:absolute;
+	background: white;
+	width: 50em;
+	height:30em;
+	left: 55%;
+	border:1px solid #000;
+	z-index: 9002;
+}
+
+#popUpDiv2 {
+	position:absolute;
+	background: white;
+	width: 50em;
+	height:30em;
+	left: 55%;
+	border:1px solid #000;
+	z-index: 9003;
+}
+
+#belowTable0 {
+	width: 10px;
+	height: 50px;
+	padding-top: 100px;
+	margin-left: 10px;
+}
+
+#rightAdvanced {
+	width: 49.7%;
+	height: 200px;
+	border-bottom: 1px solid black;
+}
+
+#lowerRightAdv {
+	margin-top: 65px;
+	width: 100%;
+	height: 205px;
+}
+
+.redforbad {
+	height: 10px;
+	width: 100%;
+	margin-top: 5px;
+	margin-left: 0px;
+	text-align: center;
+	font-size: 16px;
+	color: red;
+	font-weight: 600;
+}
+
+.redText {
+	color: red;
+}
+
+.timeWasteAdv {
+	height:10px;
+	width: 100%;
+	margin-left: 0px;
+	text-align: center;
+	margin-top: 20px;
+	font-size:16px;
+	font-weight: 600;
+}
+
+p {
+	font-size: 100px;
+	margin-left: 20px;
+	margin-top: 160px;
+}
+
