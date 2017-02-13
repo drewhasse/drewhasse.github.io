@@ -1,22 +1,18 @@
-/*WebDesignAndSuch.com*/
-
-
 @charset "UTF-8";
 body {
 	font-family: Arial, serif;
 	background:#190121;
-	margin: 0; 
+	margin: 0;
 	padding: 0;
-	text-align: center; 
+	text-align: center;
 	color: #000000;
 }
- #container {
-	width: 780px;  
+#container {
+	width: 40%;
 	background: #FFFFFF;
-	margin: 0 auto; 
+	margin: 0 auto;
 	font-size:14px;
-	
-	text-align: left; 
+	text-align: left;
 }
 #mainContent {
 	padding: 0 60px;
@@ -50,7 +46,7 @@ img {border:0px}
 
 #AdvancedMetricsbtn {
 	width: 12em;
-	
+
 }
 
 #leftAdvanced {
@@ -90,6 +86,7 @@ img {border:0px}
 	width: 50em;
 	height:30em;
 	left: 40%;
+	margin-bottom: 25%;
 	border:1px solid #000;
 	z-index: 9003;
 }
@@ -143,4 +140,3 @@ p {
 	margin-left: 20px;
 	margin-top: 160px;
 }
-
