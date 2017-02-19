@@ -58,6 +58,20 @@
 	background-color: #AAAAAA;
 }
 
+#manageSites label,input {
+	margin-top: 4%;
+
+}
+
+#urlLabel {
+	padding-left: 5%
+}
+
+#websiteURL {
+	margin-right: 5%;
+}
+
+
 #siteBar{
 	border-bottom: 1px solid;
 	height: 10%;
@@ -70,7 +84,7 @@
 	height: 50%;
 	width: 4%;
 	margin-top: 2%;
-	margin-right: 5%;
+	margin-right: 2%;
 	float: right;
 	background-color: clear;
 }
@@ -154,18 +168,18 @@
 	min-width: 100%;
 	overflow-y: auto;
 	display: inline-block;
-	border-bottom: solid;
-	border-right: solid;
-	border-left: solid;
+	border-bottom: 1px solid;
+	border-right: 1px solid;
+	border-left: 1px solid;
 	max-height: 100%;
 }
 
 
 #tableHeader{
 	width: 100%;
-	border-top: solid;
-	border-right: solid;
-	border-left: solid;
+	border-top: 1px solid;
+	border-right: 1px solid;
+	border-left: 1px solid;
 }
 
 
