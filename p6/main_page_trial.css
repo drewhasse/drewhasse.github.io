@@ -14,13 +14,19 @@
 #titleBar{
 	height: 10%;
 	width: 100%;
+	font-size: 10rem;
 	background-color: #4CAF50;
 	font-weight: 600;
 	color: white;
 }
 
+#titleBar label {
+	margin-top: 3%;
+	font-size: 10%;
+}
+
 #textName{
-	width: 15%;
+	width: 12%;
 	height: 50%;
 	margin-left: 5%;
 	margin-top: 3%;
@@ -29,20 +35,23 @@
 
 #sliderText{
 	margin-left: 18%;
-  	margin-top: 3%;
-  	float: left;
+  margin-top: 3%;
+  float: left;
+	width: 12%;
 }
 
 #sliderText2{
 	margin-left: 13%;
-  	margin-top: 3%;
-  	float: left;
+  margin-top: 3%;
+  float: left;
+	width: 15%;
 }
 
 #deleteText{
 	margin-left: 10%;
 	margin-top: 3%;
 	float: left;
+	width: 15%;
 }
 
 #relevantSites{
@@ -99,7 +108,7 @@
 	margin-left: 5%;
 	margin-top: 2%;
 	border-radius: 5px;
-	align-content: center; 
+	align-content: center;
 	background-color: #999999;
 	color: #FEFEFE;
 	font-weight: 600;
