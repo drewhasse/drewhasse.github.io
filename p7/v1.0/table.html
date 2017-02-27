@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="table.css">
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#171;</a>
+
+    <h2>Site Metrics</h2>
+<div>
+    <table>
+        <tr>
+            <th>Website</th>
+            <th>Time Wasted</th>
+            <th>Percentage</th>
+        </tr>
+    
+        <tr>
+            <td>Facebook</td>
+            <td>1 Hr 17 Min</td>
+            <td>39.9%</td>
+        </tr>
+    
+        <tr>
+            <td>Twitter</td>
+            <td>0 Hr 52 Min</td>
+            <td>26.9%</td>
+        </tr>
+    
+        <tr>
+            <td>Reddit</td>
+            <td>0 Hr 36 Min</td>
+            <td>18.7%</td>
+        </tr>
+    
+        <tr>
+            <td>Youtube</td>
+            <td>0 Hr 28 Min</td>
+            <td>14.5%</td>
+        </tr>
+    </table>
+</div>
+
+<div>
+<div id="blanket" style="display:none;"></div>
+    <div id="popUpDiv" style="display:none;">
+    
+        <div id="backBtn"><a href="#" onclick="popup('popUpDiv')" >Back</a></div>
+        <p> DATA </data>
+    </div>
+<a href="#" onclick="popup('popUpDiv')">Advanced Metric</a></div>
+</div>
+       
+
+<div id = "metricData">
+    <span style="font-size:25px;cursor:pointer" onclick="openNav()">Metrics &#187;</span>
+</div>
+    
+<script src="table.js"></script>
+</body>
+</html>
