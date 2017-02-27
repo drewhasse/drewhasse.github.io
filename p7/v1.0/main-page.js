@@ -25,7 +25,7 @@ var x = setInterval(function () {
     if (popupOpen) {
       popupCount++;
       if (popupCount == 5) {
-         var confirmation = window.confirm("You suck");
+         var confirmation = window.confirm("You are procrastinating! Get back to work!");
          popupCount = 0;
         }
     }
