@@ -176,13 +176,22 @@ p {
 p:last-child {
     margin-bottom: 0px;
 }
-
+.abstract a {
+    margin-bottom: 50px;
+    font-size: 2rem;
+}
 .abstract h1 {
     color: #000;
 }
 .abstract p {
     color: #444;
     font-family: open_sansregular;
+}
+.center {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*.home-wrap h1,*/
 .home-wrap h2,
